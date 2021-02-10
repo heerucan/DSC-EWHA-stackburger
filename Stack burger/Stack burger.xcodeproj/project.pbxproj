@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB98793E25D37E930028F4B2 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */; };
+		BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796925D38DD60028F4B2 /* DailyViewController.swift */; };
+		BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */; };
+		BB98797225D3B4640028F4B2 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */; };
 		BBD5230B25CB28F6005FDA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */; };
 		BBD5230D25CB28F6005FDA93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */; };
 		BBD5230F25CB28F6005FDA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5230E25CB28F6005FDA93 /* ViewController.swift */; };
@@ -15,9 +19,14 @@
 		BBD5231725CB28F9005FDA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD5231525CB28F9005FDA93 /* LaunchScreen.storyboard */; };
 		BBD5232225CB2965005FDA93 /* UhBee Se_hyun.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBD5232025CB2965005FDA93 /* UhBee Se_hyun.ttf */; };
 		BBD5232325CB2965005FDA93 /* UhBee Se_hyun Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBD5232125CB2965005FDA93 /* UhBee Se_hyun Bold.ttf */; };
+		BBD5235F25CD7853005FDA93 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD5235E25CD7853005FDA93 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		BB98796925D38DD60028F4B2 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpensourceViewController.swift; sourceTree = "<group>"; };
+		BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		BBD5230725CB28F6005FDA93 /* Stack burger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack burger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +37,7 @@
 		BBD5231825CB28F9005FDA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBD5232025CB2965005FDA93 /* UhBee Se_hyun.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UhBee Se_hyun.ttf"; sourceTree = "<group>"; };
 		BBD5232125CB2965005FDA93 /* UhBee Se_hyun Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UhBee Se_hyun Bold.ttf"; sourceTree = "<group>"; };
+		BBD5235E25CD7853005FDA93 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				BBD5230A25CB28F6005FDA93 /* AppDelegate.swift */,
 				BBD5230C25CB28F6005FDA93 /* SceneDelegate.swift */,
 				BBD5230E25CB28F6005FDA93 /* ViewController.swift */,
+				BB98796925D38DD60028F4B2 /* DailyViewController.swift */,
+				BB98797125D3B4640028F4B2 /* DailyTableViewCell.swift */,
+				BBD5235E25CD7853005FDA93 /* SettingViewController.swift */,
+				BB98793D25D37E930028F4B2 /* SettingTableViewCell.swift */,
+				BB98796D25D38DF40028F4B2 /* OpensourceViewController.swift */,
 				BBD5231025CB28F6005FDA93 /* Main.storyboard */,
 				BBD5231325CB28F9005FDA93 /* Assets.xcassets */,
 				BBD5231525CB28F9005FDA93 /* LaunchScreen.storyboard */,
@@ -153,6 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB98796E25D38DF40028F4B2 /* OpensourceViewController.swift in Sources */,
+				BB98797225D3B4640028F4B2 /* DailyTableViewCell.swift in Sources */,
+				BB98796A25D38DD60028F4B2 /* DailyViewController.swift in Sources */,
+				BBD5235F25CD7853005FDA93 /* SettingViewController.swift in Sources */,
+				BB98793E25D37E930028F4B2 /* SettingTableViewCell.swift in Sources */,
 				BBD5230F25CB28F6005FDA93 /* ViewController.swift in Sources */,
 				BBD5230B25CB28F6005FDA93 /* AppDelegate.swift in Sources */,
 				BBD5230D25CB28F6005FDA93 /* SceneDelegate.swift in Sources */,
